@@ -1,3 +1,63 @@
 {
-    "configUrl": "http://192.168.31.54:5500/config.json"
+    "voice": {
+        "language": "en_US",
+        "voice": "en-US-Wavenet-D"
+    },
+    "Ants": [
+        {
+            "name": "Billy",
+            "skin": "AntRed"
+        },
+        {
+            "name": "Bob",
+            "skin": "AntGreen"
+        },
+        {
+            "name": "Emily",
+            "skin": "AntPurple"
+        },
+        {
+            "name": "Jack",
+            "skin": "AntBlue"
+        }
+    ],
+    "WelcomeText": "Hello, Welcome to smarty ants. Please Select Your favorite Ant to play the game.",
+    "WhenAntSelectedText": "You have selected {CharName}",
+    "GameTexts": [
+        "Hello, My name is {CharName}",
+        "Click on the start button to start playing the game."
+    ],
+    "QuestionText": "The word is ",
+    "CorrectText": "Correct Answer",
+    "IncorrectText": "Wrong Answer",
+    "Questions": [
+        {
+            "question": "BALL",
+            "options": [
+                "ABC",
+                "ASD",
+                "TJL",
+                "ZIL"
+            ]
+        },
+        {
+            "question": "WATER",
+            "options": [
+                "MBW",
+                "SAD",
+                "TJL",
+                "ZEU",
+                "DPR"
+            ]
+        },
+        {
+            "question": "SNOW",
+            "options": [
+                "SBW",
+                "SAN",
+                "OJL",
+                "ZWU"
+            ]
+        }
+    ]
 }
